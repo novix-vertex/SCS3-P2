@@ -37,7 +37,8 @@ main {
 .pikachu-img,
 .wheel-img,
 .logo-img,
-.burger-menu {
+.burger-menu,
+.indicators {
     position: absolute;
     z-index: 10;
 }
@@ -60,10 +61,10 @@ main {
 }
 
 .burger-menu {
-    right:30px;
-    top:30px;
-    color:#000;
-    font-size:2rem;
+    right: 30px;
+    top: 30px;
+    color: #000;
+    font-size: 2rem;
 }
 
 .left-content {
@@ -92,5 +93,24 @@ main {
 
 .left-content h4 {
     font-weight: 600;
-    padding-top:1rem;
+    padding-top: 1rem;
+}
+
+.indicators {
+    width: 10px;
+    top: 50%;
+    right: 15px;
+    transform: translate(-15px, -50%);
+}
+
+.indicators .indicator {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #FCC60C;
+    margin-block:1rem;
+}
+
+.indicators .active {
+    background-color: #000;
 }
