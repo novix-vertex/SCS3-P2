@@ -26,8 +26,8 @@ main {
     width: 60%;
     position: absolute;
     left: 0;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    /* border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem; */
 }
 
 .right {
